@@ -156,7 +156,6 @@ A React-based expense tracking application with modern UI/UX design.
 ### 📍 Location & Availability
 - **📍 Tampere, Finland**
 - **📧 muhammad.waqas1412@gmail.com**
-- **📱 +358-417407821**
 - **🎯 Open to opportunities in Finland and Europe**
 
 ---
