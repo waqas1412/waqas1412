@@ -53,28 +53,6 @@ From **Pakistan to Finland** - I left my home country to chase my passion for te
 
 ---
 
-## 💼 Professional Experience
-
-### **Full Stack Developer** @ [CodingKey](https://codingkey.com/) | *Apr 2024 - Aug 2024*
-- Built a **full-stack call center platform** using Angular, Node.js/Express.js, and MySQL
-- Implemented **real-time event-driven communication** and payment integration
-- Optimized order management for brands like **Papa John's**
-- Enhanced client satisfaction and operational efficiency
-
-### **Frontend Developer** @ [Funavry Technologies](https://funavry.com/) | *Mar 2023 - Apr 2024*
-- Developed **CRM and admin panels** with Angular, Firebase push notifications, and i18n
-- Led a **municipal government project** managing application workflows
-- Explored **React.js and Next.js** while mentoring junior developers
-- Implemented **lazy loading** and **reactive forms** for optimized performance
-
-### **Backend Developer** @ [LMKR](https://lmkr.com/) | *Sep 2021 - Jan 2023*
-- Developed **ETL services** for data validation and verification
-- Built **Java APIs** for ERP systems
-- Optimized **PostgreSQL performance** using views and virtual tables
-- Improved query plans and database efficiency
-
----
-
 ## 🎓 Education & Certifications
 
 ### **Master of Science in Software, Web & Cloud**
