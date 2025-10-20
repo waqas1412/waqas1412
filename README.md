@@ -95,56 +95,107 @@ I'm a **passionate Full Stack Developer** with **3+ years of experience** buildi
 
 <div align="center">
 
+### **🏆 Senior-Level & Enterprise Projects**
+
 <table>
 <tr>
 <td width="50%">
 
-### **🍳 Recipe-Book**
-**TypeScript | Full-Stack Application**
-- Modern recipe management system
-- User authentication & data persistence
-- Responsive design with intuitive UX
-- Built with TypeScript & modern frameworks
+### **🏭 IoT Device Manager**
+**Microservices Architecture | Node.js 24, Angular 20, TypeScript 5**
+- **5 microservices** with API Gateway, Device, User, Analytics, Notification services
+- **Real-time communication** with WebSocket & Redis pub/sub
+- **MongoDB** for device data, **Redis** for caching & analytics
+- **JWT authentication** with role-based access control
+- **Docker containerization** with comprehensive orchestration
+- **45 pre-seeded devices** with live data simulation
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/Recipe-Book)
+[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/iot-device-manager)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-green?style=for-the-badge)](https://github.com/waqas1412/iot-device-manager)
 
 </td>
 <td width="50%">
 
-### **🛒 Bulky**
-**C# | E-commerce Solution**
-- Comprehensive e-commerce platform
-- Advanced features & modern architecture
-- Scalable backend with robust API
-- Professional-grade development practices
+### **🎭 Emote System Kafka**
+**Distributed Event-Driven Architecture | Node.js, React, Apache Kafka**
+- **Event-driven microservices** with Kafka message broker
+- **Real-time data processing** pipeline for emote reactions
+- **WebSocket broadcasting** for live updates
+- **Docker orchestration** with multi-service architecture
+- **RESTful API** for dynamic configuration
+- **React frontend** with real-time animations
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/Bulky)
+[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/emote-system-kafka)
+[![Architecture](https://img.shields.io/badge/Architecture-Distributed-blue?style=for-the-badge)](https://github.com/waqas1412/emote-system-kafka)
+
+</td>
+</tr>
+</table>
+
+### **💼 Professional & Intermediate Projects**
+
+<table>
+<tr>
+<td width="50%">
+
+### **🏔️ NZWalks API**
+**ASP.NET Core 8.0 | Clean Architecture | JWT Authentication**
+- **Clean architecture** with Repository pattern & Dependency Injection
+- **JWT authentication** with 10-minute token expiration
+- **Role-based authorization** (Reader/Writer roles)
+- **Entity Framework Core** with SQL Server
+- **Swagger documentation** with JWT support
+- **Custom middleware** for global exception handling
+
+[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/NZWalks)
+[![API Docs](https://img.shields.io/badge/API%20Docs-Swagger-green?style=for-the-badge)](https://github.com/waqas1412/NZWalks)
+
+</td>
+<td width="50%">
+
+### **🍳 Recipe Book**
+**Angular 16 | NgRx State Management | Firebase Integration**
+- **NgRx state management** for authentication & shopping list
+- **Firebase integration** for real-time database
+- **JWT token management** with automatic refresh
+- **Lazy loading** modules for performance
+- **Reactive forms** with validation
+- **Shopping list** with real-time updates
+
+[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/Recipe-Book)
+[![Angular](https://img.shields.io/badge/Angular-16-red?style=for-the-badge&logo=angular)](https://github.com/waqas1412/Recipe-Book)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### **🚶 NZWalks**
-**.NET Core | Web API**
-- Modern .NET Core web application
-- RESTful API design patterns
-- Clean architecture implementation
-- Comprehensive documentation
+### **🛒 Bulky E-commerce**
+**ASP.NET Core MVC | Repository Pattern | Bootstrap 5**
+- **Clean layered architecture** with separation of concerns
+- **Repository pattern** for data access abstraction
+- **Entity Framework Core** with SQL Server
+- **Responsive Bootstrap 5** UI with custom styling
+- **Form validation** with client & server-side validation
+- **Toast notifications** for user feedback
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/NZWalks)
+[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/Bulky)
+[![MVC](https://img.shields.io/badge/ASP.NET%20Core-MVC-blue?style=for-the-badge)](https://github.com/waqas1412/Bulky)
 
 </td>
 <td width="50%">
 
-### **💰 React-Expense-Tracker**
-**React | Financial Management**
-- Modern expense tracking application
-- Intuitive UI/UX design
-- State management with React hooks
-- Responsive cross-platform design
+### **💰 React Expense Tracker**
+**React 18 | Modern Hooks | Interactive Charts**
+- **React 18** with modern hooks and state management
+- **Interactive charts** for spending visualization
+- **Responsive design** with mobile-first approach
+- **Real-time filtering** by year with dynamic updates
+- **Component architecture** with reusable elements
+- **Modern UI** with dark theme and animations
 
 [![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/React-Expense-Tracker)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://github.com/waqas1412/React-Expense-Tracker)
 
 </td>
 </tr>
