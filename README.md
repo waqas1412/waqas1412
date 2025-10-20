@@ -16,10 +16,6 @@
 
 ## 🚀 About Me
 
-<div align="center">
-  <img src="https://github.com/waqas1412/waqas1412/assets/your-image-url" width="200" height="200" style="border-radius: 50%; border: 4px solid #4F8CC9;" alt="Profile Picture" />
-</div>
-
 I'm a **passionate Full Stack Developer** with **3+ years of experience** building scalable, real-world applications. Currently pursuing my **Master of Science in Software, Web & Cloud** at [Tampere University](https://www.tuni.fi/), Finland, with an impressive **4.78/5.00 GPA**.
 
 ### 🌍 My Journey
