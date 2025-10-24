@@ -1,287 +1,205 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Muhammad%20Waqas%20Hameed&fontSize=42&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20M.Sc.%20Student%20%40%20Tampere%20University&descAlignY=55&descAlign=center" alt="Header" />
-</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=4F8CC9&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;M.Sc.+Student+%40+Tampere+University;Passionate+Problem+Solver;Always+Learning+%26+Growing;Open+to+Opportunities+in+Finland" alt="Typing SVG" />
-</div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=waqas1412&style=for-the-badge&color=blue" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/Status-Available%20for%20Opportunities-brightgreen?style=for-the-badge" alt="Status" />
-  <img src="https://img.shields.io/badge/Location-Tampere%2C%20Finland-blue?style=for-the-badge" alt="Location" />
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/waqas1412/waqas1412/main/header.png" alt="Muhammad Waqas Hameed - Full Stack Developer" width="100%">
+</p>
 
----
+<p align="center">
+    <a href="https://www.linkedin.com/in/waqas1412/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/waqas1412" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+    </a>
+    <a href="mailto:muhammad.waqas1412@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    </a>
+</p>
 
-## 🚀 About Me
-
-I'm a **passionate Full Stack Developer** with **3+ years of experience** building scalable, real-world applications. Currently pursuing my **Master of Science in Software, Web & Cloud** at [Tampere University](https://www.tuni.fi/), Finland, with an impressive **4.78/5.00 GPA**.
-
-### 🌍 My Journey
-**From Pakistan to Finland** - I embarked on an international journey to pursue my passion for technology and innovation. Currently **85/120 ECTS completed** in my master's program, with a clear vision to contribute to Finland's thriving tech ecosystem and grow as a European developer.
-
-### 💡 What Drives Me
-- **🎯 Problem Solving**: Transforming complex challenges into elegant, scalable solutions
-- **📚 Continuous Learning**: Always exploring cutting-edge technologies and methodologies
-- **👥 User-Centric Development**: Building applications that genuinely improve people's lives
-- **🧹 Clean Code Philosophy**: Writing maintainable, testable, and well-documented code
-- **🌐 Global Perspective**: Leveraging international experience to build inclusive solutions
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=waqas1412&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/waqas1412?label=Followers&style=social" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/waqas1412?style=social" alt="Stars"/>
+</p>
 
 ---
 
-## 🛠️ Tech Stack & Expertise
 
-<div align="center">
 
-### **Frontend Development**
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
+## 👨‍💻 About Me
 
-### **Backend Development**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+I'm a **passionate Full Stack Developer** with **3+ years of experience** building scalable, real-world applications. Currently pursuing my **Master of Science in Software, Web & Cloud** at **Tampere University, Finland**, with an impressive **4.78/5.00 GPA**.
 
-### **Databases & Cloud**
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### **Development Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
+- 🔭 I’m currently working on my Master's Thesis and actively looking for a full-time position in Finland.
+- 🌱 I’m currently learning advanced cloud technologies and modern development practices.
+- 👯 I’m looking to collaborate on open-source projects.
+- 🤔 I’m looking for help with networking in the Finnish tech ecosystem.
+- 💬 Ask me about anything, I am happy to help.
+- 📫 How to reach me: muhammad.waqas1412@gmail.com
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I have traveled from Pakistan to Finland to pursue my passion for technology and innovation.
 
 ---
 
-## 🎓 Education & Achievements
+## 🛠️ Tech Stack
 
-<div align="center">
-
-### **🎓 Master of Science in Software, Web & Cloud**
-**Tampere University, Finland** | *Aug 2024 - Dec 2025 (Expected)*
-- **🏆 GPA: 4.78/5.00** | **📊 Progress: 85/120 ECTS**
-- **📚 Key Courses**: Full-Stack Development, Cloud Technologies, Software Design, Software Architecture, Human Technology Interaction
-
-### **🎓 Bachelor of Science in Computer Science**
-**International Islamic University Islamabad** | *2017 - 2021*
-- **🏆 GPA: 3.41/4.00**
-
-### **🏅 Professional Certifications**
-![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular%20Certification-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React%20%26%20Next.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-
-</div>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,cs,java,html,css,scss,nodejs,dotnet,react,angular,mongodb,redis,kafka,docker,git,github,vscode,postman,idea,visualstudio" />
+  </a>
+</p>
 
 ---
 
-## 🚀 Featured Projects
 
-<div align="center">
 
-### **🏆 Senior-Level & Enterprise Projects**
+## 🚀 My Projects
 
-<table>
-<tr>
-<td width="50%">
+<details>
+<summary>🏆 Featured/Senior Projects</summary>
+<br>
 
-### **🏭 IoT Device Manager**
-**Microservices Architecture | Node.js 24, Angular 20, TypeScript 5**
-- **5 microservices** with API Gateway, Device, User, Analytics, Notification services
-- **Real-time communication** with WebSocket & Redis pub/sub
-- **MongoDB** for device data, **Redis** for caching & analytics
-- **JWT authentication** with role-based access control
-- **Docker containerization** with comprehensive orchestration
-- **45 pre-seeded devices** with live data simulation
+| Repository | Description |
+|---|---|
+| <a href="https://github.com/waqas1412/task-manager"><b>task-manager</b></a> | A modern task management CLI application built with Java 25 LTS, demonstrating best practices in software architecture and design patterns. |
+| <a href="https://github.com/waqas1412/iot-device-manager"><b>iot-device-manager</b></a> | IoT Device Management System with Microservices Architecture - Node.js 24, Angular 20, TypeScript 5, MongoDB, Redis. |
+| <a href="https://github.com/waqas1412/emote-system-kafka"><b>emote-system-kafka</b></a> | Distributed Event-Driven Architecture with Node.js, React, and Apache Kafka for real-time emote reactions. |
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/iot-device-manager)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-green?style=for-the-badge)](https://github.com/waqas1412/iot-device-manager)
+</details>
 
-</td>
-<td width="50%">
+<details>
+<summary>🌐 Full-Stack Web Applications</summary>
+<br>
 
-### **🎭 Emote System Kafka**
-**Distributed Event-Driven Architecture | Node.js, React, Apache Kafka**
-- **Event-driven microservices** with Kafka message broker
-- **Real-time data processing** pipeline for emote reactions
-- **WebSocket broadcasting** for live updates
-- **Docker orchestration** with multi-service architecture
-- **RESTful API** for dynamic configuration
-- **React frontend** with real-time animations
+| Repository | Description |
+|---|---|
+| <a href="https://github.com/waqas1412/NZWalks"><b>NZWalks</b></a> | An ASP.NET Core API with clean architecture, JWT authentication, and role-based authorization. |
+| <a href="https://github.com/waqas1412/EmployeeManagement"><b>EmployeeManagement</b></a> | A project for learning ASP.NET Core. |
+| <a href="https://github.com/waqas1412/YelpCamp"><b>YelpCamp</b></a> | A full-stack web application for reviewing and sharing campgrounds. |
+| <a href="https://github.com/waqas1412/Bulky"><b>Bulky</b></a> | An e-commerce web application built with ASP.NET Core MVC. |
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/emote-system-kafka)
-[![Architecture](https://img.shields.io/badge/Architecture-Distributed-blue?style=for-the-badge)](https://github.com/waqas1412/emote-system-kafka)
+</details>
 
-</td>
-</tr>
-</table>
+<details>
+<summary>⚛️ Frontend Projects</summary>
+<br>
 
-### **💼 Professional & Intermediate Projects**
+| Repository | Description |
+|---|---|
+| <a href="https://github.com/waqas1412/Recipe-Book"><b>Recipe-Book</b></a> | An Angular application with NgRx for state management and Firebase for real-time data. (1⭐) |
+| <a href="https://github.com/waqas1412/ReciepeBook"><b>ReciepeBook</b></a> | A recipe management application. |
+| <a href="https://github.com/waqas1412/React-Expense-Tracker"><b>React-Expense-Tracker</b></a> | A React application for tracking expenses with interactive charts. |
+| <a href="https://github.com/waqas1412/food-order-app"><b>food-order-app</b></a> | A food ordering application built with React. |
+| <a href="https://github.com/waqas1412/NgRx"><b>NgRx</b></a> | A project for practicing with NgRx state management. |
+| <a href="https://github.com/waqas1412/MEAN_Project"><b>MEAN_Project</b></a> | A project built with the MEAN (MongoDB, Express, Angular, Node.js) stack. |
+| <a href="https://github.com/waqas1412/CoursesApp"><b>CoursesApp</b></a> | A simple application for managing courses. |
 
-<table>
-<tr>
-<td width="50%">
+</details>
 
-### **🏔️ NZWalks API**
-**ASP.NET Core 8.0 | Clean Architecture | JWT Authentication**
-- **Clean architecture** with Repository pattern & Dependency Injection
-- **JWT authentication** with 10-minute token expiration
-- **Role-based authorization** (Reader/Writer roles)
-- **Entity Framework Core** with SQL Server
-- **Swagger documentation** with JWT support
-- **Custom middleware** for global exception handling
+<details>
+<summary>💼 Portfolio Projects</summary>
+<br>
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/NZWalks)
-[![API Docs](https://img.shields.io/badge/API%20Docs-Swagger-green?style=for-the-badge)](https://github.com/waqas1412/NZWalks)
+| Repository | Description |
+|---|---|
+| <a href="https://github.com/waqas1412/PortfolioPortal"><b>PortfolioPortal</b></a> | The frontend of my portfolio website. |
+| <a href="https://github.com/waqas1412/PortfolioFrontend"><b>PortfolioFrontend</b></a> | The frontend of my portfolio website. |
+| <a href="https://github.com/waqas1412/PortfolioBackend"><b>PortfolioBackend</b></a> | The backend API for my portfolio website. |
 
-</td>
-<td width="50%">
+</details>
 
-### **🍳 Recipe Book**
-**Angular 16 | NgRx State Management | Firebase Integration**
-- **NgRx state management** for authentication & shopping list
-- **Firebase integration** for real-time database
-- **JWT token management** with automatic refresh
-- **Lazy loading** modules for performance
-- **Reactive forms** with validation
-- **Shopping list** with real-time updates
+<details>
+<summary>🎓 Academic/Learning Projects</summary>
+<br>
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/Recipe-Book)
-[![Angular](https://img.shields.io/badge/Angular-16-red?style=for-the-badge&logo=angular)](https://github.com/waqas1412/Recipe-Book)
+| Repository | Description |
+|---|---|
+| <a href="https://github.com/waqas1412/SoftwareDevelopmentSkills"><b>SoftwareDevelopmentSkills</b></a> | A repository for a course at LUT University. |
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+</details>
 
-### **🛒 Bulky E-commerce**
-**ASP.NET Core MVC | Repository Pattern | Bootstrap 5**
-- **Clean layered architecture** with separation of concerns
-- **Repository pattern** for data access abstraction
-- **Entity Framework Core** with SQL Server
-- **Responsive Bootstrap 5** UI with custom styling
-- **Form validation** with client & server-side validation
-- **Toast notifications** for user feedback
+<details>
+<summary>🚧 Work in Progress</summary>
+<br>
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/Bulky)
-[![MVC](https://img.shields.io/badge/ASP.NET%20Core-MVC-blue?style=for-the-badge)](https://github.com/waqas1412/Bulky)
+| Repository | Description |
+|---|---|
+| <a href="https://github.com/waqas1412/evcharge-mini"><b>evcharge-mini</b></a> | A mini project related to EV charging. |
+| <a href="https://github.com/waqas1412/TaskForge"><b>TaskForge</b></a> | A task management application. |
 
-</td>
-<td width="50%">
-
-### **💰 React Expense Tracker**
-**React 18 | Modern Hooks | Interactive Charts**
-- **React 18** with modern hooks and state management
-- **Interactive charts** for spending visualization
-- **Responsive design** with mobile-first approach
-- **Real-time filtering** by year with dynamic updates
-- **Component architecture** with reusable elements
-- **Modern UI** with dark theme and animations
-
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412/React-Expense-Tracker)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://github.com/waqas1412/React-Expense-Tracker)
-
-</td>
-</tr>
-</table>
-
-</div>
+</details>
 
 ---
 
-## 📊 GitHub Analytics
 
-<div align="center">
 
-### **📈 Activity Overview**
-<img src="https://github-readme-stats.vercel.app/api?username=waqas1412&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4F8CC9&icon_color=4F8CC9&text_color=9f9f9f&count_private=true" alt="GitHub Stats" />
+## 📊 GitHub Stats
 
-### **💻 Language Distribution**
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=waqas1412&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4F8CC9&text_color=9f9f9f&langs_count=8" alt="Top Languages" />
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=waqas1412&show_icons=true&theme=dracula&hide_border=true&count_private=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waqas1412&layout=compact&theme=dracula&hide_border=true&count_private=true" />
+</p>
 
-### **🔥 Contribution Streak**
-<img src="https://streak-stats.demolab.com/?user=waqas1412&theme=tokyonight&hide_border=true&background=0D1117&stroke=4F8CC9&ring=4F8CC9&fire=4F8CC9&currStreakNum=4F8CC9&sideNums=4F8CC9&currStreakLabel=4F8CC9&sideLabels=4F8CC9&dates=9f9f9f" alt="GitHub Streak" />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=waqas1412&theme=dracula&hide_border=true" />
+</p>
 
-### **🏆 GitHub Trophies**
-<img src="https://github-profile-trophy.vercel.app/?username=waqas1412&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
-
-### **📊 Activity Graph**
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=waqas1412&theme=tokyonight&hide_border=true&bg_color=0D1117&color=4F8CC9&line=4F8CC9&point=4F8CC9&area=true&hide_title=true" alt="Activity Graph" />
-
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=waqas1412&theme=dracula&hide_border=true&count_private=true" />
+</p>
 
 ---
 
-## 🌟 Current Focus & Goals
 
-<div align="center">
+## 🎓 Education
 
-### **🎯 What I'm Working On**
-- **📚 Master's Thesis**: Completing research in Software, Web & Cloud technologies
-- **🔍 Job Search**: Actively seeking **Full Stack Developer** opportunities in **Finland**
-- **🚀 Skill Enhancement**: Exploring advanced cloud technologies and modern development practices
-- **💡 Open Source**: Contributing to meaningful projects and expanding my portfolio
-- **🌐 Networking**: Building connections in the Finnish and European tech ecosystem
+**Master of Science in Software, Web & Cloud**  
+📍 Tampere University, Finland | 🗓️ Aug 2024 - Dec 2025 (Expected)  
+🏆 GPA: **4.78/5.00** | 📊 Progress: **85/120 ECTS**
 
-### **🎯 2025 Goals**
-- Complete master's degree with distinction
-- Secure a full-time developer position in Finland
-- Contribute to open-source projects
-- Master advanced cloud technologies
-- Build innovative solutions for real-world problems
-
-</div>
+**Bachelor of Science in Computer Science**  
+📍 International Islamic University Islamabad | 🗓️ 2017 - 2021  
+🏆 GPA: **3.41/4.00**
 
 ---
 
-## 📫 Let's Connect & Collaborate!
+## 🏆 GitHub Trophies
 
-<div align="center">
-
-### **🌐 Professional Networks**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/waqas1412/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqas1412)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhammad.waqas1412@gmail.com)
-
-### **📍 Location & Availability**
-- **🏙️ Tampere, Finland**
-- **📧 muhammad.waqas1412@gmail.com**
-- **🎯 Open to opportunities in Finland and Europe**
-- **💼 Available for Full Stack Developer positions**
-- **🤝 Open to collaboration and networking**
-
-</div>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=waqas1412&theme=dracula&no-frame=true&no-bg=true&margin-w=4&column=7" />
+</p>
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="Footer" />
-  
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=waqas1412&style=for-the-badge&color=blue" alt="Profile Views" />
-  </p>
-  
-  <p>
-    <em>Thanks for visiting my profile! Feel free to reach out if you'd like to collaborate, discuss opportunities, or just say hello! 👋</em>
-  </p>
-  
-  <p>
-    <strong>Let's build something amazing together! 🚀</strong>
-  </p>
-</div>
+## 🎯 Current Focus
+
+- 📚 Completing my Master's Thesis in Software, Web & Cloud
+- 🔍 Actively seeking **Full Stack Developer** opportunities in **Finland**
+- 🚀 Exploring advanced cloud technologies and microservices architecture
+- 💡 Contributing to open-source projects
+- 🌐 Building connections in the Finnish and European tech ecosystem
+
+---
+
+## 📫 Let's Connect!
+
+<p align="center">
+  I'm always open to interesting conversations and collaboration opportunities!<br>
+  Feel free to reach out if you'd like to discuss technology, opportunities, or just say hello! 👋
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/waqas1412/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:muhammad.waqas1412@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Say%20Hello-red?style=for-the-badge&logo=gmail" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+</p>
+
