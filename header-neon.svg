@@ -1,0 +1,204 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#1a0a2e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0a0a1a;stop-opacity:1"/>
+    </linearGradient>
+    
+    <linearGradient id="neonText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff006e;stop-opacity:1">
+        <animate attributeName="stop-color" values="#ff006e;#8338ec;#3a86ff;#ff006e" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#8338ec;stop-opacity:1">
+        <animate attributeName="stop-color" values="#8338ec;#3a86ff;#ff006e;#8338ec" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#3a86ff;stop-opacity:1">
+        <animate attributeName="stop-color" values="#3a86ff;#ff006e;#8338ec;#3a86ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <style>
+      @keyframes slideIn {
+        0% { transform: translateX(-100px); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+      
+      @keyframes rotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      @keyframes glitch {
+        0%, 100% { transform: translate(0); }
+        20% { transform: translate(-2px, 2px); }
+        40% { transform: translate(-2px, -2px); }
+        60% { transform: translate(2px, 2px); }
+        80% { transform: translate(2px, -2px); }
+      }
+      
+      .neon-text {
+        font-family: 'Arial Black', sans-serif;
+        fill: url(#neonText);
+        filter: url(#strongGlow);
+        animation: slideIn 1s ease-out;
+      }
+      
+      .neon-subtitle {
+        font-family: 'Arial', sans-serif;
+        fill: #00f5ff;
+        filter: url(#neonGlow);
+        animation: slideIn 1.5s ease-out;
+      }
+      
+      .pulse-circle {
+        animation: pulse 2s ease-in-out infinite;
+      }
+      
+      .glitch-text {
+        animation: glitch 0.3s infinite;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#neonBg)"/>
+  
+  <!-- Grid lines -->
+  <g opacity="0.15">
+    <line x1="0" y1="0" x2="1200" y2="400" stroke="#ff006e" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="0" stroke="#3a86ff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="400" stroke="#8338ec" stroke-width="2"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#8338ec" stroke-width="2"/>
+  </g>
+  
+  <!-- Rotating circles in background -->
+  <g opacity="0.3">
+    <circle cx="100" cy="100" r="50" fill="none" stroke="#ff006e" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="300" r="60" fill="none" stroke="#3a86ff" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" from="0 1100 300" to="-360 1100 300" dur="25s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Pulsing corner accents -->
+  <g class="pulse-circle">
+    <circle cx="50" cy="50" r="5" fill="#ff006e" filter="url(#neonGlow)"/>
+    <circle cx="1150" cy="50" r="5" fill="#3a86ff" filter="url(#neonGlow)"/>
+    <circle cx="50" cy="350" r="5" fill="#8338ec" filter="url(#neonGlow)"/>
+    <circle cx="1150" cy="350" r="5" fill="#00f5ff" filter="url(#neonGlow)"/>
+  </g>
+  
+  <!-- Corner brackets -->
+  <g stroke="#ff006e" stroke-width="3" fill="none" filter="url(#neonGlow)">
+    <polyline points="20,80 20,20 80,20"/>
+    <polyline points="1180,80 1180,20 1120,20"/>
+    <polyline points="20,320 20,380 80,380"/>
+    <polyline points="1180,320 1180,380 1120,380"/>
+  </g>
+  
+  <!-- Decorative lines -->
+  <line x1="100" y1="150" x2="350" y2="150" stroke="#ff006e" stroke-width="2" opacity="0.5" filter="url(#neonGlow)">
+    <animate attributeName="x2" values="350;450;350" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <line x1="850" y1="250" x2="1100" y2="250" stroke="#3a86ff" stroke-width="2" opacity="0.5" filter="url(#neonGlow)">
+    <animate attributeName="x1" values="850;750;850" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Main content container -->
+  <rect x="100" y="100" width="1000" height="200" fill="#0a0a1a" opacity="0.6" rx="15"/>
+  <rect x="100" y="100" width="1000" height="200" fill="none" stroke="url(#neonText)" stroke-width="2" rx="15" filter="url(#neonGlow)"/>
+  
+  <!-- Decorative symbols -->
+  <text x="120" y="140" font-family="monospace" font-size="24" fill="#ff006e" opacity="0.7" filter="url(#neonGlow)">&lt;/&gt;</text>
+  <text x="1050" y="140" font-family="monospace" font-size="24" fill="#3a86ff" opacity="0.7" filter="url(#neonGlow)">{ }</text>
+  
+  <!-- Main title -->
+  <text class="neon-text" x="150" y="180" font-size="56" font-weight="bold">
+    MUHAMMAD WAQAS HAMEED
+  </text>
+  
+  <!-- Glitch effect overlay for title (subtle) -->
+  <text class="neon-text glitch-text" x="150" y="180" font-size="56" font-weight="bold" opacity="0.3" fill="#ff006e">
+    MUHAMMAD WAQAS HAMEED
+  </text>
+  
+  <!-- Subtitle -->
+  <text class="neon-subtitle" x="150" y="220" font-size="22">
+    FULL STACK DEVELOPER | M.SC. STUDENT @ TAMPERE UNIVERSITY
+  </text>
+  
+  <!-- Tech badges -->
+  <g transform="translate(150, 240)">
+    <!-- JavaScript -->
+    <rect x="0" y="0" width="80" height="30" rx="5" fill="#f7df1e" opacity="0.2" stroke="#f7df1e" stroke-width="2" filter="url(#neonGlow)"/>
+    <text x="40" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#f7df1e" filter="url(#neonGlow)">JS</text>
+    
+    <!-- TypeScript -->
+    <rect x="90" y="0" width="80" height="30" rx="5" fill="#3178c6" opacity="0.2" stroke="#3178c6" stroke-width="2" filter="url(#neonGlow)"/>
+    <text x="130" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#3178c6" filter="url(#neonGlow)">TS</text>
+    
+    <!-- React -->
+    <rect x="180" y="0" width="80" height="30" rx="5" fill="#61dafb" opacity="0.2" stroke="#61dafb" stroke-width="2" filter="url(#neonGlow)"/>
+    <text x="220" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#61dafb" filter="url(#neonGlow)">REACT</text>
+    
+    <!-- Angular -->
+    <rect x="270" y="0" width="90" height="30" rx="5" fill="#dd0031" opacity="0.2" stroke="#dd0031" stroke-width="2" filter="url(#neonGlow)"/>
+    <text x="315" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#dd0031" filter="url(#neonGlow)">ANGULAR</text>
+    
+    <!-- Node.js -->
+    <rect x="370" y="0" width="80" height="30" rx="5" fill="#68a063" opacity="0.2" stroke="#68a063" stroke-width="2" filter="url(#neonGlow)"/>
+    <text x="410" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#68a063" filter="url(#neonGlow)">NODE</text>
+    
+    <!-- .NET -->
+    <rect x="460" y="0" width="80" height="30" rx="5" fill="#512bd4" opacity="0.2" stroke="#512bd4" stroke-width="2" filter="url(#neonGlow)"/>
+    <text x="500" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#512bd4" filter="url(#neonGlow)">.NET</text>
+  </g>
+  
+  <!-- Status indicator -->
+  <g transform="translate(800, 255)">
+    <circle cx="0" cy="0" r="6" fill="#00ff88" filter="url(#neonGlow)">
+      <animate attributeName="r" values="6;8;6" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="15" y="5" font-family="Arial" font-size="16" font-weight="bold" fill="#00ff88" filter="url(#neonGlow)">AVAILABLE FOR HIRE</text>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <line x1="100" y1="320" x2="1100" y2="320" stroke="url(#neonText)" stroke-width="3" filter="url(#neonGlow)">
+    <animate attributeName="stroke-dasharray" values="0,2000;2000,0" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Info tags -->
+  <text x="150" y="355" font-family="monospace" font-size="14" fill="#00f5ff" filter="url(#neonGlow)">
+    <tspan>📍 FINLAND</tspan>
+    <tspan x="300" dy="0">🎓 GPA: 4.78/5.00</tspan>
+    <tspan x="550" dy="0">💼 3+ YEARS EXP</tspan>
+    <tspan x="800" dy="0">🚀 OPEN SOURCE</tspan>
+  </text>
+</svg>
+

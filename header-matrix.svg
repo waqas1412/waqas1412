@@ -1,0 +1,151 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fall {
+        0% { transform: translateY(-100%); opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { transform: translateY(500%); opacity: 0; }
+      }
+      
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px #00ff41); }
+        50% { filter: drop-shadow(0 0 20px #00ff41); }
+      }
+      
+      @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+      }
+      
+      .matrix-char {
+        font-family: 'Courier New', monospace;
+        fill: #00ff41;
+        font-size: 20px;
+        animation: fall linear infinite;
+      }
+      
+      .main-content {
+        font-family: 'Courier New', monospace;
+        fill: #00ff41;
+        animation: glow 2s ease-in-out infinite;
+      }
+      
+      .cursor {
+        animation: flicker 1s step-end infinite;
+      }
+    </style>
+    
+    <linearGradient id="matrixBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#001a00;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#matrixBg)"/>
+  
+  <!-- Matrix rain effect - Column 1 -->
+  <text class="matrix-char" x="50" y="0" style="animation-duration: 8s; animation-delay: 0s;">1</text>
+  <text class="matrix-char" x="50" y="30" style="animation-duration: 8s; animation-delay: 0.2s;">0</text>
+  <text class="matrix-char" x="50" y="60" style="animation-duration: 8s; animation-delay: 0.4s;">1</text>
+  
+  <!-- Column 2 -->
+  <text class="matrix-char" x="120" y="0" style="animation-duration: 10s; animation-delay: 1s;">コ</text>
+  <text class="matrix-char" x="120" y="30" style="animation-duration: 10s; animation-delay: 1.2s;">ー</text>
+  <text class="matrix-char" x="120" y="60" style="animation-duration: 10s; animation-delay: 1.4s;">ド</text>
+  
+  <!-- Column 3 -->
+  <text class="matrix-char" x="200" y="0" style="animation-duration: 9s; animation-delay: 2s;">J</text>
+  <text class="matrix-char" x="200" y="30" style="animation-duration: 9s; animation-delay: 2.2s;">S</text>
+  <text class="matrix-char" x="200" y="60" style="animation-duration: 9s; animation-delay: 2.4s;">X</text>
+  
+  <!-- Column 4 -->
+  <text class="matrix-char" x="280" y="0" style="animation-duration: 11s; animation-delay: 0.5s;">1</text>
+  <text class="matrix-char" x="280" y="30" style="animation-duration: 11s; animation-delay: 0.7s;">0</text>
+  <text class="matrix-char" x="280" y="60" style="animation-duration: 11s; animation-delay: 0.9s;">1</text>
+  
+  <!-- Column 5 -->
+  <text class="matrix-char" x="360" y="0" style="animation-duration: 7s; animation-delay: 3s;">デ</text>
+  <text class="matrix-char" x="360" y="30" style="animation-duration: 7s; animation-delay: 3.2s;">ー</text>
+  <text class="matrix-char" x="360" y="60" style="animation-duration: 7s; animation-delay: 3.4s;">タ</text>
+  
+  <!-- Column 6 -->
+  <text class="matrix-char" x="840" y="0" style="animation-duration: 9.5s; animation-delay: 1.5s;">R</text>
+  <text class="matrix-char" x="840" y="30" style="animation-duration: 9.5s; animation-delay: 1.7s;">E</text>
+  <text class="matrix-char" x="840" y="60" style="animation-duration: 9.5s; animation-delay: 1.9s;">A</text>
+  
+  <!-- Column 7 -->
+  <text class="matrix-char" x="920" y="0" style="animation-duration: 10.5s; animation-delay: 2.5s;">1</text>
+  <text class="matrix-char" x="920" y="30" style="animation-duration: 10.5s; animation-delay: 2.7s;">0</text>
+  <text class="matrix-char" x="920" y="60" style="animation-duration: 10.5s; animation-delay: 2.9s;">1</text>
+  
+  <!-- Column 8 -->
+  <text class="matrix-char" x="1000" y="0" style="animation-duration: 8.5s; animation-delay: 0.8s;">ノ</text>
+  <text class="matrix-char" x="1000" y="30" style="animation-duration: 8.5s; animation-delay: 1.0s;">ー</text>
+  <text class="matrix-char" x="1000" y="60" style="animation-duration: 8.5s; animation-delay: 1.2s;">ド</text>
+  
+  <!-- Column 9 -->
+  <text class="matrix-char" x="1080" y="0" style="animation-duration: 12s; animation-delay: 1.8s;">N</text>
+  <text class="matrix-char" x="1080" y="30" style="animation-duration: 12s; animation-delay: 2.0s;">E</text>
+  <text class="matrix-char" x="1080" y="60" style="animation-duration: 12s; animation-delay: 2.2s;">T</text>
+  
+  <!-- Column 10 -->
+  <text class="matrix-char" x="1150" y="0" style="animation-duration: 7.5s; animation-delay: 3.5s;">1</text>
+  <text class="matrix-char" x="1150" y="30" style="animation-duration: 7.5s; animation-delay: 3.7s;">0</text>
+  <text class="matrix-char" x="1150" y="60" style="animation-duration: 7.5s; animation-delay: 3.9s;">1</text>
+  
+  <!-- Dark overlay for content area -->
+  <rect x="150" y="80" width="900" height="240" fill="#000000" opacity="0.7" rx="10"/>
+  
+  <!-- Border glow -->
+  <rect x="150" y="80" width="900" height="240" fill="none" stroke="#00ff41" stroke-width="2" rx="10" opacity="0.5"/>
+  
+  <!-- Terminal prompt -->
+  <text class="main-content" x="180" y="120" font-size="18">
+    <tspan fill="#00ff41">root@github</tspan>
+    <tspan fill="#ffffff">:</tspan>
+    <tspan fill="#4169ff">~/waqas1412</tspan>
+    <tspan fill="#ffffff">$</tspan>
+    <tspan fill="#00ff41"> cat profile.txt</tspan>
+  </text>
+  
+  <!-- Main name -->
+  <text class="main-content" x="180" y="170" font-size="48" font-weight="bold">
+    Muhammad Waqas Hameed
+  </text>
+  
+  <!-- Subtitle -->
+  <text class="main-content" x="180" y="210" font-size="20" opacity="0.9">
+    Full Stack Developer | M.Sc. Student @ Tampere University
+  </text>
+  
+  <!-- Tech stack -->
+  <text class="main-content" x="180" y="245" font-size="16" opacity="0.8">
+    <tspan>&gt; Skills: </tspan>
+    <tspan fill="#f7df1e">JavaScript</tspan>
+    <tspan> | </tspan>
+    <tspan fill="#3178c6">TypeScript</tspan>
+    <tspan> | </tspan>
+    <tspan fill="#61dafb">React</tspan>
+    <tspan> | </tspan>
+    <tspan fill="#dd0031">Angular</tspan>
+    <tspan> | </tspan>
+    <tspan fill="#68a063">Node.js</tspan>
+    <tspan> | </tspan>
+    <tspan fill="#512bd4">.NET</tspan>
+  </text>
+  
+  <!-- Status line -->
+  <text class="main-content" x="180" y="280" font-size="16">
+    <tspan>&gt; Status: </tspan>
+    <tspan fill="#00ff41">● AVAILABLE FOR OPPORTUNITIES</tspan>
+    <tspan class="cursor" fill="#00ff41">█</tspan>
+  </text>
+  
+  <!-- Bottom info -->
+  <text class="main-content" x="180" y="305" font-size="14" opacity="0.7">
+    📍 Finland | 🎓 GPA: 4.78/5.00 | 💼 3+ Years Experience
+  </text>
+</svg>
+
