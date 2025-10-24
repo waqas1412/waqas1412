@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/waqas1412/waqas1412/main/header.png" alt="Muhammad Waqas Hameed - Full Stack Developer" width="100%">
+  <img src="https://raw.githubusercontent.com/waqas1412/waqas1412/main/header-custom.svg" alt="Muhammad Waqas Hameed - Full Stack Developer" width="100%">
 </p>
 
 <p align="center">

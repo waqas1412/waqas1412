@@ -1,0 +1,178 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:1">
+        <animate attributeName="stop-color" values="#0f0c29;#302b63;#24243e;#0f0c29" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#302b63;stop-opacity:1">
+        <animate attributeName="stop-color" values="#302b63;#24243e;#0f0c29;#302b63" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#24243e;stop-opacity:1">
+        <animate attributeName="stop-color" values="#24243e;#0f0c29;#302b63;#24243e" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00f2fe;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#4facfe;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      
+      @keyframes scan {
+        0% { transform: translateY(-100%); opacity: 0; }
+        50% { opacity: 0.5; }
+        100% { transform: translateY(400%); opacity: 0; }
+      }
+      
+      .particle {
+        animation: float 3s ease-in-out infinite;
+      }
+      
+      .scan-line {
+        animation: scan 4s linear infinite;
+      }
+      
+      .code-symbol {
+        font-family: 'Courier New', monospace;
+        fill: #00f2fe;
+        opacity: 0.3;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      
+      .main-title {
+        font-family: 'Arial', sans-serif;
+        font-size: 64px;
+        font-weight: bold;
+        fill: url(#textGradient);
+        filter: url(#glow);
+      }
+      
+      .subtitle {
+        font-family: 'Arial', sans-serif;
+        font-size: 24px;
+        fill: #a0a0ff;
+      }
+      
+      .username {
+        font-family: 'Courier New', monospace;
+        font-size: 18px;
+        fill: #00f2fe;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.1">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#00f2fe" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#00f2fe" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#00f2fe" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="400" stroke="#00f2fe" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="400" stroke="#00f2fe" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="400" stroke="#00f2fe" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="400" stroke="#00f2fe" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="400" stroke="#00f2fe" stroke-width="1"/>
+  </g>
+  
+  <!-- Scanning line effect -->
+  <rect class="scan-line" x="0" y="0" width="1200" height="3" fill="#00f2fe" opacity="0.5"/>
+  
+  <!-- Floating particles -->
+  <circle class="particle" cx="100" cy="80" r="3" fill="#00f2fe" opacity="0.6">
+    <animate attributeName="cy" values="80;60;80" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="particle" cx="1100" cy="320" r="2" fill="#4facfe" opacity="0.4">
+    <animate attributeName="cy" values="320;300;320" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="particle" cx="200" cy="150" r="2.5" fill="#00f2fe" opacity="0.5">
+    <animate attributeName="cy" values="150;130;150" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="particle" cx="950" cy="120" r="2" fill="#4facfe" opacity="0.6">
+    <animate attributeName="cy" values="120;100;120" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Code symbols in background -->
+  <text class="code-symbol" x="50" y="50" font-size="20">{'{'}</text>
+  <text class="code-symbol" x="1130" y="370" font-size="20">{'}'}</text>
+  <text class="code-symbol" x="80" y="350" font-size="18">&lt;/&gt;</text>
+  <text class="code-symbol" x="1100" y="50" font-size="18">[ ]</text>
+  <text class="code-symbol" x="150" y="200" font-size="16">( )</text>
+  <text class="code-symbol" x="1050" y="250" font-size="16">=&gt;</text>
+  
+  <!-- Corner accents -->
+  <polyline points="0,0 50,0 50,2 2,2 2,50 0,50" fill="#00f2fe" opacity="0.6"/>
+  <polyline points="1200,0 1150,0 1150,2 1198,2 1198,50 1200,50" fill="#00f2fe" opacity="0.6"/>
+  <polyline points="0,400 50,400 50,398 2,398 2,350 0,350" fill="#00f2fe" opacity="0.6"/>
+  <polyline points="1200,400 1150,400 1150,398 1198,398 1198,350 1200,350" fill="#00f2fe" opacity="0.6"/>
+  
+  <!-- Terminal prompt -->
+  <text class="username" x="100" y="120">
+    <tspan fill="#00ff88">waqas1412</tspan>
+    <tspan fill="#a0a0ff">@github</tspan>
+    <tspan fill="#ffffff">:~$</tspan>
+    <tspan fill="#00f2fe"> whoami</tspan>
+  </text>
+  
+  <!-- Main title with typing effect -->
+  <text class="main-title" x="100" y="200">
+    Muhammad Waqas Hameed
+  </text>
+  
+  <!-- Subtitle -->
+  <text class="subtitle" x="100" y="240">
+    Full Stack Developer | M.Sc. Student @ Tampere University
+  </text>
+  
+  <!-- Tech stack icons (simplified) -->
+  <g transform="translate(100, 280)">
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#f7df1e" opacity="0.8"/>
+    <text x="20" y="28" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">JS</text>
+    
+    <rect x="50" y="0" width="40" height="40" rx="5" fill="#3178c6" opacity="0.8"/>
+    <text x="70" y="28" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#fff">TS</text>
+    
+    <rect x="100" y="0" width="40" height="40" rx="5" fill="#61dafb" opacity="0.8"/>
+    <text x="120" y="28" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">R</text>
+    
+    <rect x="150" y="0" width="40" height="40" rx="5" fill="#dd0031" opacity="0.8"/>
+    <text x="170" y="28" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#fff">A</text>
+    
+    <rect x="200" y="0" width="40" height="40" rx="5" fill="#68a063" opacity="0.8"/>
+    <text x="220" y="28" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#fff">N</text>
+    
+    <rect x="250" y="0" width="40" height="40" rx="5" fill="#512bd4" opacity="0.8"/>
+    <text x="270" y="28" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">.NET</text>
+  </g>
+  
+  <!-- Status indicator -->
+  <g transform="translate(1050, 320)">
+    <circle cx="0" cy="0" r="8" fill="#00ff88">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="15" y="5" font-family="Arial" font-size="14" fill="#00ff88">Available for Opportunities</text>
+  </g>
+</svg>
+
