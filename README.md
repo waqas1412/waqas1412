@@ -103,7 +103,6 @@ I'm a **passionate Full Stack Developer** with **3+ years of experience** buildi
 
 | Repository | Description |
 |---|---|
-| <a href="https://github.com/waqas1412/swedish-taxi-exam-trainer"><b>swedish-taxi-exam-trainer</b></a> | A TypeScript study app for the Swedish taxi-driver licence (Taxiförarlegitimation) exam — actively in development. |
 | <a href="https://github.com/waqas1412/evcharge-mini"><b>evcharge-mini</b></a> | A mini project related to EV charging. |
 | <a href="https://github.com/waqas1412/TaskForge"><b>TaskForge</b></a> | A task management application. |
 
