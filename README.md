@@ -61,9 +61,10 @@ I'm a **passionate Full Stack Developer** with **3+ years of experience** buildi
 
 | Repository | Description |
 |---|---|
-| <a href="https://github.com/waqas1412/task-manager"><b>task-manager</b></a> | A modern task management CLI application built with Java 25 LTS, demonstrating best practices in software architecture and design patterns. |
-| <a href="https://github.com/waqas1412/iot-device-manager"><b>iot-device-manager</b></a> | IoT Device Management System with Microservices Architecture - Node.js 24, Angular 20, TypeScript 5, MongoDB, Redis. |
-| <a href="https://github.com/waqas1412/emote-system-kafka"><b>emote-system-kafka</b></a> | Distributed Event-Driven Architecture with Node.js, React, and Apache Kafka for real-time emote reactions. |
+| <a href="https://github.com/waqas1412/iot-device-manager"><b>iot-device-manager</b></a> | IoT Device Management System with a microservices architecture — Node.js 24, Angular 20, TypeScript 5, MongoDB, Redis. (86 commits, full docs) |
+| <a href="https://github.com/waqas1412/react19-nexus"><b>react19-nexus</b></a> | Production-grade React 19 micro-frontend architecture showcasing Actions, Suspense, useOptimistic & the latest features. |
+| <a href="https://github.com/waqas1412/task-manager"><b>task-manager</b></a> | A modern task management CLI built with Java 25 LTS, demonstrating clean software architecture and design patterns. |
+| <a href="https://github.com/waqas1412/emote-system-kafka"><b>emote-system-kafka</b></a> | Distributed event-driven architecture with Node.js, React, and Apache Kafka for real-time emote reactions. |
 
 </details>
 
@@ -97,33 +98,12 @@ I'm a **passionate Full Stack Developer** with **3+ years of experience** buildi
 </details>
 
 <details>
-<summary>💼 Portfolio Projects</summary>
-<br>
-
-| Repository | Description |
-|---|---|
-| <a href="https://github.com/waqas1412/PortfolioPortal"><b>PortfolioPortal</b></a> | The frontend of my portfolio website. |
-| <a href="https://github.com/waqas1412/PortfolioFrontend"><b>PortfolioFrontend</b></a> | The frontend of my portfolio website. |
-| <a href="https://github.com/waqas1412/PortfolioBackend"><b>PortfolioBackend</b></a> | The backend API for my portfolio website. |
-
-</details>
-
-<details>
-<summary>🎓 Academic/Learning Projects</summary>
-<br>
-
-| Repository | Description |
-|---|---|
-| <a href="https://github.com/waqas1412/SoftwareDevelopmentSkills"><b>SoftwareDevelopmentSkills</b></a> | A repository for a course at LUT University. |
-
-</details>
-
-<details>
 <summary>🚧 Work in Progress</summary>
 <br>
 
 | Repository | Description |
 |---|---|
+| <a href="https://github.com/waqas1412/swedish-taxi-exam-trainer"><b>swedish-taxi-exam-trainer</b></a> | A TypeScript study app for the Swedish taxi-driver licence (Taxiförarlegitimation) exam — actively in development. |
 | <a href="https://github.com/waqas1412/evcharge-mini"><b>evcharge-mini</b></a> | A mini project related to EV charging. |
 | <a href="https://github.com/waqas1412/TaskForge"><b>TaskForge</b></a> | A task management application. |
 
