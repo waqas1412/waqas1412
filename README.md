@@ -28,12 +28,12 @@
 
 ## 👨‍💻 About Me
 
-I'm a **passionate Full Stack Developer** with **3+ years of experience** building scalable, real-world applications. Currently pursuing my **Master of Science in Software, Web & Cloud** at **Tampere University, Finland**, with an impressive **4.78/5.00 GPA**.
+I'm a **passionate Full Stack Developer** with **3+ years of experience** building scalable, real-world applications. I hold a **Master of Science in Software, Web & Cloud** from **Tampere University, Finland** (a strong **4.78/5.00 GPA**).
 
-- 🔭 I’m currently working on my Master's Thesis and actively looking for a full-time position in Finland.
+- 💼 I’m currently working as a **Software Engineer** in Tampere, Finland — open to interesting opportunities and collaborations.
 - 🌱 I’m currently learning advanced cloud technologies and modern development practices.
 - 👯 I’m looking to collaborate on open-source projects.
-- 🤔 I’m looking for help with networking in the Finnish tech ecosystem.
+- 🤝 Always glad to connect with others in the Finnish & European tech ecosystem.
 - 💬 Ask me about anything, I am happy to help.
 - 📫 How to reach me: muhammad.waqas1412@gmail.com
 - 😄 Pronouns: He/Him
@@ -134,8 +134,8 @@ I'm a **passionate Full Stack Developer** with **3+ years of experience** buildi
 ## 🎓 Education
 
 **Master of Science in Software, Web & Cloud**  
-📍 Tampere University, Finland | 🗓️ Aug 2024 - Dec 2025 (Expected)  
-🏆 GPA: **4.78/5.00** | 📊 Progress: **85/120 ECTS**
+📍 Tampere University, Finland | 🗓️ Aug 2024 – Dec 2025 · 🎓 Graduated  
+🏆 GPA: **4.78/5.00**
 
 **Bachelor of Science in Computer Science**  
 📍 International Islamic University Islamabad | 🗓️ 2017 - 2021  
@@ -153,8 +153,8 @@ I'm a **passionate Full Stack Developer** with **3+ years of experience** buildi
 
 ## 🎯 Current Focus
 
-- 📚 Completing my Master's Thesis in Software, Web & Cloud
-- 🔍 Actively seeking **Full Stack Developer** opportunities in **Finland**
+- 💼 Working as a **Software Engineer** in Tampere, Finland
+- 👋 Open to interesting opportunities and collaborations
 - 🚀 Exploring advanced cloud technologies and microservices architecture
 - 💡 Contributing to open-source projects
 - 🌐 Building connections in the Finnish and European tech ecosystem
