@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Waqas Hameed, Full Stack Developer</title>
+  <desc id="desc">Developer studio in Tampere, Finland. Interfaces, APIs and distributed systems.</desc>
+  <rect width="640" height="400" rx="4" fill="#fbfaff"/>
+  <circle cx="32" cy="35" r="5" fill="#006f68"/>
+  <text x="48" y="42" fill="#54515e" font-family="monospace" font-size="20">WAQAS1412 / STUDIO</text>
+  <path d="M32 66 H608" stroke="#c4bdcf"/>
+  <text x="32" y="118" fill="#006f68" font-family="monospace" font-size="22">HELLO, I'M</text>
+  <text x="28" y="182" fill="#181320" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="-2">Muhammad Waqas</text>
+  <text x="28" y="244" fill="#181320" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="-2">Hameed.</text>
+  <text x="32" y="291" fill="#54515e" font-family="Segoe UI,Arial,sans-serif" font-size="30">Full Stack Developer</text>
+  <path d="M32 329 H608" stroke="#c4bdcf"/>
+  <text x="32" y="368" fill="#006f68" font-family="monospace" font-size="24">TAMPERE, FINLAND</text>
+  <path d="M0 4 H168 L180 16 H310" fill="none" stroke="#006f68" stroke-width="5"/>
+  <path d="M630 80 V124 L617 137 V181" fill="none" stroke="#a11168" stroke-width="5"/>
+  <path d="M390 386 H472 L484 374 H640" fill="none" stroke="#a11168" stroke-width="4"/>
+  <path d="M566 25 L555 46 M582 25 L571 46 M598 25 L587 46" stroke="#006f68" stroke-width="5"/></svg>
