@@ -1,184 +1,116 @@
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/waqas1412/waqas1412/main/header-custom.svg" alt="Muhammad Waqas Hameed - Full Stack Developer" width="100%">
-</p>
-
-<p align="center">
-    <a href="https://www.linkedin.com/in/waqas1412/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
-    <a href="https://github.com/waqas1412" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-    </a>
-    <a href="mailto:muhammad.waqas1412@gmail.com">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-    </a>
-</p>
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg">
+  <source media="(max-width: 640px)" srcset="./assets/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Muhammad Waqas Hameed. Full Stack Developer in Tampere, Finland. Interfaces, APIs and distributed systems." src="./assets/hero-light.svg" width="1200">
+</picture>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=waqas1412&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/waqas1412?label=Followers&style=social" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/waqas1412?style=social" alt="Stars"/>
+  <a href="https://www.linkedin.com/in/waqas1412/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:muhammad.waqas1412@gmail.com">Email</a> &nbsp; / &nbsp;
+  <a href="https://github.com/waqas1412?tab=repositories">Repositories</a>
 </p>
+
+<p align="center"><strong>Muhammad Waqas Hameed</strong><br><strong>Software Engineer · Tampere, Finland</strong><br>Building across the web, from the interface to the services behind it.</p>
 
 ---
 
+## 01 / Selected work
 
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/waqas1412/iot-device-manager">01 / IoT Device Manager</a></h3>
+<p>IoT dashboard spanning five services, live device metrics, and an Angular frontend.</p>
+<p><code>Angular</code> <code>Node.js</code> <code>TypeScript</code><br><code>MongoDB</code> <code>Redis</code> <code>Docker</code></p>
+<a href="https://github.com/waqas1412/iot-device-manager">Explore the system →</a>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/waqas1412/react19-nexus">02 / React 19 Nexus</a></h3>
+<p>React 19 workspace with task, dashboard, and analytics modules. Exploring Actions, Suspense, and optimistic updates.</p>
+<p><code>React</code> <code>TypeScript</code> <code>Vite</code><br><code>Tailwind CSS</code> <code>Vitest</code></p>
+<a href="https://github.com/waqas1412/react19-nexus">Explore the workspace →</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/waqas1412/task-manager">03 / Task Manager</a></h3>
+<p>A Java command line task manager exploring software architecture and design patterns.</p>
+<p><code>Java</code> <code>CLI</code> <code>Design patterns</code></p>
+<a href="https://github.com/waqas1412/task-manager">Explore the application →</a>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/waqas1412/emote-system-kafka">04 / Emote System</a></h3>
+<p>A distributed reaction system connecting a React interface with Node.js services and Apache Kafka.</p>
+<p><code>React</code> <code>Node.js</code> <code>Kafka</code><br><code>Event-driven systems</code></p>
+<a href="https://github.com/waqas1412/emote-system-kafka">Explore the architecture →</a>
+</td>
+</tr>
+</table>
 
-## 👨‍💻 About Me
+## 02 / Tools I work with
 
-I'm a **passionate Full Stack Developer** with **3+ years of experience** building scalable, real-world applications. I hold a **Master of Science in Software, Web & Cloud** from **Tampere University, Finland** (a strong **4.78/5.00 GPA**).
+| Layer | Technologies |
+| :--- | :--- |
+| **Interfaces** | React · Angular · TypeScript · JavaScript · HTML · CSS · SCSS |
+| **Services** | Node.js · .NET · C# · Java |
+| **Data & messaging** | MongoDB · Redis · Apache Kafka |
+| **Delivery & tooling** | Docker · Git · GitHub · Postman |
 
-- 💼 I’m currently working as a **Software Engineer** in Tampere, Finland — open to interesting opportunities and collaborations.
-- 🌱 I’m currently learning advanced cloud technologies and modern development practices.
-- 👯 I’m looking to collaborate on open-source projects.
-- 🤝 Always glad to connect with others in the Finnish & European tech ecosystem.
-- 💬 Ask me about anything, I am happy to help.
-- 📫 How to reach me: muhammad.waqas1412@gmail.com
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I have traveled from Pakistan to Finland to pursue my passion for technology and innovation.
+## 03 / A little context
 
----
+I'm Muhammad Waqas Hameed, a full stack developer based in **Tampere, Finland**. My work and projects span frontend applications, backend APIs, and distributed systems.
 
-## 🛠️ Tech Stack
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,cs,java,html,css,scss,nodejs,dotnet,react,angular,mongodb,redis,kafka,docker,git,github,vscode,postman,idea,visualstudio" />
-  </a>
-</p>
-
----
-
-
-
-## 🚀 My Projects
+I hold an **MSc in Software, Web & Cloud from Tampere University**, with a **4.78/5.00 GPA**. I'm continuing to explore cloud technologies and microservices, and I'm open to thoughtful conversations, collaboration, and interesting opportunities.
 
 <details>
-<summary>🏆 Featured/Senior Projects</summary>
+<summary><strong>Education & background</strong></summary>
+
 <br>
 
-| Repository | Description |
-|---|---|
-| <a href="https://github.com/waqas1412/iot-device-manager"><b>iot-device-manager</b></a> | IoT Device Management System with a microservices architecture — Node.js 24, Angular 20, TypeScript 5, MongoDB, Redis. (86 commits, full docs) |
-| <a href="https://github.com/waqas1412/react19-nexus"><b>react19-nexus</b></a> | Production-grade React 19 micro-frontend architecture showcasing Actions, Suspense, useOptimistic & the latest features. |
-| <a href="https://github.com/waqas1412/task-manager"><b>task-manager</b></a> | A modern task management CLI built with Java 25 LTS, demonstrating clean software architecture and design patterns. |
-| <a href="https://github.com/waqas1412/emote-system-kafka"><b>emote-system-kafka</b></a> | Distributed event-driven architecture with Node.js, React, and Apache Kafka for real-time emote reactions. |
+| Qualification | University | Period | GPA |
+| :--- | :--- | :--- | :--- |
+| MSc, Software, Web & Cloud | Tampere University, Finland | Aug 2024 – Dec 2025 | 4.78/5.00 |
+| BSc, Computer Science | International Islamic University Islamabad | 2017 – 2021 | 3.41/4.00 |
+
+My path in technology took me from Pakistan to Finland. I enjoy connecting with the Finnish and European tech communities.
 
 </details>
 
 <details>
-<summary>🌐 Full-Stack Web Applications</summary>
+<summary><strong>More projects to explore</strong></summary>
+
 <br>
 
-| Repository | Description |
-|---|---|
-| <a href="https://github.com/waqas1412/NZWalks"><b>NZWalks</b></a> | An ASP.NET Core API with clean architecture, JWT authentication, and role-based authorization. |
-| <a href="https://github.com/waqas1412/EmployeeManagement"><b>EmployeeManagement</b></a> | A project for learning ASP.NET Core. |
-| <a href="https://github.com/waqas1412/YelpCamp"><b>YelpCamp</b></a> | A full-stack web application for reviewing and sharing campgrounds. |
-| <a href="https://github.com/waqas1412/Bulky"><b>Bulky</b></a> | An e-commerce web application built with ASP.NET Core MVC. |
+### Full stack & APIs
 
-</details>
+| Project | Focus |
+| :--- | :--- |
+| [NZWalks](https://github.com/waqas1412/NZWalks) | ASP.NET Core API, JWT authentication, and role based authorization |
+| [Bulky](https://github.com/waqas1412/Bulky) | E-commerce application with ASP.NET Core MVC |
+| [YelpCamp](https://github.com/waqas1412/YelpCamp) | Campground reviews and sharing |
+| [EmployeeManagement](https://github.com/waqas1412/EmployeeManagement) | Learning ASP.NET Core |
 
-<details>
-<summary>⚛️ Frontend Projects</summary>
-<br>
+### Frontend & learning
 
-| Repository | Description |
-|---|---|
-| <a href="https://github.com/waqas1412/Recipe-Book"><b>Recipe-Book</b></a> | An Angular application with NgRx for state management and Firebase for real-time data. (1⭐) |
-| <a href="https://github.com/waqas1412/ReciepeBook"><b>ReciepeBook</b></a> | A recipe management application. |
-| <a href="https://github.com/waqas1412/React-Expense-Tracker"><b>React-Expense-Tracker</b></a> | A React application for tracking expenses with interactive charts. |
-| <a href="https://github.com/waqas1412/food-order-app"><b>food-order-app</b></a> | A food ordering application built with React. |
-| <a href="https://github.com/waqas1412/NgRx"><b>NgRx</b></a> | A project for practicing with NgRx state management. |
-| <a href="https://github.com/waqas1412/MEAN_Project"><b>MEAN_Project</b></a> | A project built with the MEAN (MongoDB, Express, Angular, Node.js) stack. |
-| <a href="https://github.com/waqas1412/CoursesApp"><b>CoursesApp</b></a> | A simple application for managing courses. |
+| Project | Focus |
+| :--- | :--- |
+| [Recipe Book](https://github.com/waqas1412/Recipe-Book) | Angular, NgRx, and Firebase |
+| [React Expense Tracker](https://github.com/waqas1412/React-Expense-Tracker) | Expense tracking with interactive charts |
+| [Food Order App](https://github.com/waqas1412/food-order-app) | A React food ordering interface |
+| [NgRx](https://github.com/waqas1412/NgRx) | State management practice |
+| [MEAN Project](https://github.com/waqas1412/MEAN_Project) | MongoDB, Express, Angular, and Node.js |
 
-</details>
-
-<details>
-<summary>🚧 Work in Progress</summary>
-<br>
-
-| Repository | Description |
-|---|---|
-| <a href="https://github.com/waqas1412/evcharge-mini"><b>evcharge-mini</b></a> | A mini project related to EV charging. |
-| <a href="https://github.com/waqas1412/TaskForge"><b>TaskForge</b></a> | A task management application. |
+[Browse all repositories →](https://github.com/waqas1412?tab=repositories)
 
 </details>
 
 ---
 
-
-
-## 📊 GitHub Stats
-
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=waqas1412&show_icons=true&theme=dracula&hide_border=true&count_private=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waqas1412&layout=compact&theme=dracula&hide_border=true&count_private=true" />
+  <strong>Have something interesting in mind?</strong><br>
+  Let's talk about software, systems, or what you're building.<br><br>
+  <a href="mailto:muhammad.waqas1412@gmail.com"><strong>muhammad.waqas1412@gmail.com</strong></a><br>
+  <a href="https://www.linkedin.com/in/waqas1412/">Connect on LinkedIn →</a>
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=waqas1412&theme=dracula&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=waqas1412&theme=dracula&hide_border=true&count_private=true" />
-</p>
-
----
-
-
-## 🎓 Education
-
-**Master of Science in Software, Web & Cloud**  
-📍 Tampere University, Finland | 🗓️ Aug 2024 – Dec 2025 · 🎓 Graduated  
-🏆 GPA: **4.78/5.00**
-
-**Bachelor of Science in Computer Science**  
-📍 International Islamic University Islamabad | 🗓️ 2017 - 2021  
-🏆 GPA: **3.41/4.00**
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=waqas1412&theme=dracula&no-frame=true&no-bg=true&margin-w=4&column=7" />
-</p>
-
----
-
-## 🎯 Current Focus
-
-- 💼 Working as a **Software Engineer** in Tampere, Finland
-- 👋 Open to interesting opportunities and collaborations
-- 🚀 Exploring advanced cloud technologies and microservices architecture
-- 💡 Contributing to open-source projects
-- 🌐 Building connections in the Finnish and European tech ecosystem
-
----
-
-## 📫 Let's Connect!
-
-<p align="center">
-  I'm always open to interesting conversations and collaboration opportunities!<br>
-  Feel free to reach out if you'd like to discuss technology, opportunities, or just say hello! 👋
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/waqas1412/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:muhammad.waqas1412@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Say%20Hello-red?style=for-the-badge&logo=gmail" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</p>
-
